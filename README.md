@@ -80,12 +80,11 @@ valca_s2 originally represents the amount spent in year -2, and following the sa
 Once our preprocessing was completed, we studied the relationship between our features and our target variable using the chi-square test:
 
 Test hypothesis:
-\begin{cases}
-H_0 : \text{Independence between the feature and the target} \\
-H_1 : \text{Reject of null hypothesis}
-\end{cases}
+**H0:** *Null hypothesis of independence between the variables*
+vs
+**H1:** *Rejection of the null hypothesis*
 
-Rule: if p-value < threshold (= 0.05), then we reject the null hypothesis.
+**Rule: if p-value < threshold (= 0.05), then we reject the null hypothesis.**
 
 By performing this test and also calculating **Cramer's V coefficient**, we found that the variables most strongly associated with our target are:
 civilite_num, BIG_buyer, SMALL_buyer, Previous_buyer, civilite, LFY_ENF_14_16ANS_2, LFY_grou_enf_2, LFY_FAMILY_2,
