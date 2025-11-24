@@ -16,17 +16,17 @@ from src.preprocessing.preprocessing import preprocessing_class
 
 
 st.title("SCORE FOR CUSTOMERS :bulb:")
-st.header("This application helps us to find the score for each of our customer regarding the futures offers for singles we want to propose")
+st.header("This application helps us to find the score for each of our customer regarding the future offers for singles ")
 
 civilite_num0 = st.selectbox("Select customer gender", ["male", "female"])
-LFY_celibat_20 = st.selectbox("Did you select a stay for single in the last four years?", ["yes", "no"])
-LFY_grou_enf_20 = st.selectbox("Did you select a stay for cheldren in the last four years?", ["yes", "no"])
-LFY_celib_f_20= st.selectbox("Did you select a stay for female single in the last four years?", ["yes", "no"])
-MT5Y_celibat_60 = st.selectbox("Did you select a stay for single in the last eight years?", ["yes", "no"])
+LFY_celibat_20 = st.selectbox("Did the customer select a stay for single in the last four years?", ["yes", "no"])
+LFY_grou_enf_20 = st.selectbox("Did the customer select a stay for children in the last four years?", ["yes", "no"])
+LFY_celib_f_20= st.selectbox("Did the customer select a stay for single women in the last four years?", ["yes", "no"])
+MT5Y_celibat_60 = st.selectbox("Did the customer select a stay for singles more than 5 years ago ?", ["yes", "no"])
 
-MT5Y_ENF_14_16ANS_60 = st.selectbox("Did you select a stay for children between 14 and 16 years old in the last eight years?", ["yes", "no"])
-MT5Y_celib_f_60 = st.selectbox("Did you select a stay for women single in the last eight years?", ["yes", "no"])
-LFY_ENF_14_16ANS_20 = st.selectbox("Did you select a stay for children between 14 and 16 years old in the last?", ["yes", "no"])
+MT5Y_ENF_14_16ANS_60 = st.selectbox("Did the customer select a stay for children between 14 and 16 years old more than 5 years ago?", ["yes", "no"])
+MT5Y_celib_f_60 = st.selectbox("Did the customer select a stay for single women more than 5 years ago?", ["yes", "no"])
+LFY_ENF_14_16ANS_20 = st.selectbox("Did the customer select a stay for children between 14 and 16 years old in the last four years?", ["yes", "no"])
 LFY_hotel_20 = st.selectbox("Did the customer select a stay at hotel during the last four years?", ["yes", "no"])
 
 
