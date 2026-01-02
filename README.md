@@ -1,5 +1,5 @@
 
-# Customer churn prediction using Logistic Regression with SAS and Python : Overview 
+# Affinity score using Logistic Regression with SAS and Python : Overview 
 
 ![Intro](images/scoring_main_picture.webp)
 
