@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_valca_means_univariate",
+  "source_file": "notebooks/scoring_project_file.sas",
+  "source_blob_sha": "91cd1cb38fb6fcba0aa7e8b873fabfccb9e94cf3",
+  "source_commit": "42c4b43a9c9e83f45a6645e642a0382950833e86",
+  "notes": "LFY_valca spend sum + Previous/SMALL/AVERAGE/BIG_buyer tiers, profiled by PROC MEANS and PROC UNIVARIATE; inline 30-row real spend sample. Mean 317.45 from real valca values."
+}
