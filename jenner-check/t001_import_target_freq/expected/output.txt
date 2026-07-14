@@ -1,0 +1,7 @@
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+TARGET    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Non              25     83.33           25        83.33
+Oui               5     16.67           30       100.00

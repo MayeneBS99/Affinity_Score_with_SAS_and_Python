@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T15:32:20Z",
+  "_captured_run_id": "r_60e77f130c194449ae32430a71bba1c2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 30 rows from DATALINES.",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: Wrote SCORING_DATA_final (30 rows, 25 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

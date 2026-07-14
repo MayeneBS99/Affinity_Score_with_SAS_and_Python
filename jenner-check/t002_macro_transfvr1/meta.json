@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_macro_transfvr1",
+  "source_file": "notebooks/scoring_project_file.sas",
+  "source_blob_sha": "91cd1cb38fb6fcba0aa7e8b873fabfccb9e94cf3",
+  "source_commit": "42c4b43a9c9e83f45a6645e642a0382950833e86",
+  "notes": "%transfvr1 macro collapses AGENCE/celib_F/hotel years -2..-5 into LFY_ flags, then PROC FREQ; inline 30-row real sample. LFY counts (7/2/1) match raw data."
+}

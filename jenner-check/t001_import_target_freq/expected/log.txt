@@ -1,0 +1,26 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T061458Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA SCORING_DATA
+
+NOTE: Processing inline DATALINES (30 lines)
+
+NOTE: Read 30 rows from DATALINES.
+NOTE: Wrote SCORING_DATA (30 rows, 20 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA SCORING_DATA2
+
+
+NOTE: Read 30 rows from SCORING_DATA.
+NOTE: Wrote SCORING_DATA2 (30 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT target_cat defined (2 ranges).
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_target.spec.json
+NOTE: PROC FREQ statement used.
